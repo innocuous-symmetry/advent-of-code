@@ -1,3 +1,3 @@
-module github.com/innocuous-symmetry/aoc
+module advent-of-code
 
 go 1.20

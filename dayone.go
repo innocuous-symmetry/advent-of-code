@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 	"strings"
@@ -43,48 +42,4 @@ func dayOne(input string) (maxCalories int) {
 	}
 
 	return
-}
-
-func main() {
-	var result int;
-	var input string;
-
-	input =
-		`1000
-		2000
-		3000
-
-		4000
-
-		5000
-		6000
-
-		7000
-		8000
-		9000
-
-		10000`
-
-	result = dayOne(input)
-
-	fmt.Println(result)
-
-	input =
-	`
-	245
-	256
-	939
-
-	-12039
-
-
-	4949
-
-	2
-	2
-	2
-	`
-
-	result = dayOne(input)
-	fmt.Println(result)
 }
