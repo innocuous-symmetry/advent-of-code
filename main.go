@@ -55,4 +55,20 @@ func main() {
 		`,
 	)
 	fmt.Println(dayTwoResult)
+
+	/** DAY THREE */
+	fmt.Println("\nDAY THREE")
+
+	var dayThreeResult = dayThree(
+	`
+	vJrwpWtwJgWrhcsFMMfFFhFp
+	jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+	PmmdzqPrVvPwwTWBwg
+	wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+	ttgJtRGJQctTZtZT
+	CrZsJsPPZsGzwwsLwLmpwMDw
+	`)
+
+	fmt.Println(dayThreeResult)
+	// printRunes()
 }
