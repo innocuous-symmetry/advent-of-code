@@ -86,4 +86,20 @@ func main() {
 
 	var dayFourResult = dayFour(dayFourInput)
 	fmt.Println(dayFourResult)
+
+
+	/** DAY FIVE */
+	fmt.Println("\nDAY FIVE")
+
+	dayFiveInput := [4][3]int{
+		{1, 2, 1},
+		{3, 1, 3},
+		{2, 2, 1},
+		{1, 1, 2},
+	}
+
+	var dayFiveResult = dayFive(dayFiveInput)
+	for _, r := range dayFiveResult {
+		fmt.Printf("%c ", r)
+	}
 }
