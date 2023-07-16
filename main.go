@@ -102,4 +102,12 @@ func main() {
 	for _, r := range dayFiveResult {
 		fmt.Printf("%c ", r)
 	}
+
+
+	/** DAY SIX */
+	fmt.Println("\nDAY SIX")
+	fmt.Println(daySix("bvwbjplbgvbhsrlpgdmjqwftvncz"))
+	fmt.Println(daySix("nppdvjthqldpwncqszvftbrmjlhg"))
+	fmt.Println(daySix("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"))
+	fmt.Println(daySix("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"))
 }
